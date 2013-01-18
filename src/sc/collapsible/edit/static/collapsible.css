@@ -1,0 +1,32 @@
+.template-atct_edit #content ul.formTabs {
+	display: none;
+}
+
+#content legend.collapsible {
+    background: url("++resource++sc.collapsible.edit/images/arrows.png") no-repeat scroll 1px 11px transparent;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+#content legend.collapsible.collapsed {
+    background: url("++resource++sc.collapsible.edit/images/arrows.png") no-repeat scroll 1px -28px transparent;
+}
+
+form .counter {
+    color: #CCCCCC;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+form .warning {
+    color: #660000;
+}
+form .exceeded {
+    color: #EE0000;
+}
+.template-atct_edit .field {
+    position: relative;
+}
