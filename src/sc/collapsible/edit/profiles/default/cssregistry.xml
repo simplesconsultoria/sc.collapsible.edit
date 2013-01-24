@@ -2,6 +2,8 @@
 <object name="portal_css" meta_type="Stylesheets Registry">
 
   <stylesheet id="++resource++sc.collapsible.edit/collapsible.css"
-      media="screen" rendering="link" />
+      media="screen" rendering="link"
+      expression="python:object.restrictedTraverse('@@sc.collapsible.edit.config').enabled()"
+      />
 
 </object>

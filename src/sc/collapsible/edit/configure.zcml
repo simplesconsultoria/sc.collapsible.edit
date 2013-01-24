@@ -29,4 +29,12 @@
       class=".browser.SettingsEditFormView"
       />
 
+  <browser:page
+      for="*"
+      name="sc.collapsible.edit.config"
+      permission="zope2.Public"
+      class=".browser.ScCollapsibleEditConfig"
+      allowed_attributes="enabled"
+      />
+
 </configure>

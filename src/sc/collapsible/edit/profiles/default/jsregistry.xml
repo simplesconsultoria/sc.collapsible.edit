@@ -2,15 +2,17 @@
 <object name="portal_javascripts">
 
 	<javascript cacheable="True" compression="none" cookable="True"
-      			enabled="True" expression=""
+      			enabled="True"
+                expression="python:object.restrictedTraverse('@@sc.collapsible.edit.config').enabled()"
       			id="++resource++sc.collapsible.edit/jquery.collapsible-v.2.1.3.js"
       			inline="False"
 				insert-before="form_tabbing.js"    			
       			/>
 
 	<javascript cacheable="True" compression="none" cookable="True"
-    			enabled="True" expression=""
-    			id="++resource++sc.collapsible.edit/init.js" 
+    			enabled="True"
+                expression="python:object.restrictedTraverse('@@sc.collapsible.edit.config').enabled()"
+                id="++resource++sc.collapsible.edit/init.js" 
     			inline="False"
 				insert-before="form_tabbing.js"    			
     			/>

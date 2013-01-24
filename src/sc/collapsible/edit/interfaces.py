@@ -7,5 +7,5 @@ class ISettings(Interface):
 
     enabled = schema.Bool(title=u"Enabled",
                           description=u"",
+                          default=False,
                           required=False)
-
