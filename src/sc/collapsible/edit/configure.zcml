@@ -7,6 +7,7 @@
     i18n_domain="sc.collapsible.edit">
 
   <five:registerPackage package="." initialize=".initialize" />
+  <includeDependencies package="." />
 
   <genericsetup:registerProfile
       name="default"
@@ -19,6 +20,13 @@
   <browser:resourceDirectory
       name="sc.collapsible.edit"
       directory="static"
+      />
+
+  <browser:page
+      name="sc.collapsible.edit.settings"
+      for="*"
+      permission="cmf.ManagePortal"
+      class=".browser.SettingsEditFormView"
       />
 
 </configure>
