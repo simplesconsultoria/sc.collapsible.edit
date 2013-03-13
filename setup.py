@@ -5,7 +5,7 @@ from setuptools import setup
 
 import os
 
-version = '0.1'
+version = '1.0a1'
 long_description = open("README.txt").read() + "\n" + \
     open(os.path.join("docs", "INSTALL.txt")).read() + "\n" + \
     open(os.path.join("docs", "CREDITS.txt")).read() + "\n" + \
