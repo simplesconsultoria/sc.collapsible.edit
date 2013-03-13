@@ -26,15 +26,15 @@ Screenshots
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. figure:: https://github.com/simplesconsultoria/sc.collapsible.edit/raw/master/control_panel.png
     :align: center
-    :height: 582px
-    :width: 263px
+    :height: 372px
+    :width: 800px
 
 'sc.collapsible.edit' edit form
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. figure:: https://github.com/simplesconsultoria/sc.collapsible.edit/raw/master/edit_form.png
     :align: center
-    :height: 582px
-    :width: 263px
+    :height: 379px
+    :width: 800px
 
 Mostly Harmless
 ---------------
