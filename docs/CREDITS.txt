@@ -1,0 +1,10 @@
+Share and Enjoy
+---------------
+
+sc.collapsible.edit would not have been possible without the contribution of
+the following people:
+
+- Juan Pablo Giménez
+- Héctor Velarde
+
+Development sponsored by Simples Consultoria.
